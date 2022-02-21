@@ -1,7 +1,7 @@
 
-# The healing sound of the earth
+# The Healing Sound Of The Earth
 
-  - O Som Curativo da Terra (The healing sound of the earth)
+  - O Som Curativo da Terra 
 
 ## S.O.S. TERRA
 
