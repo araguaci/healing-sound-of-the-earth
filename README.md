@@ -26,8 +26,9 @@ Entre nessa jornada.
 
 Instagram: [@celsozymon](https://www.instagram.com/celsozymon/)
 
-[Fonte](https://celsozymon.com.br/cursos-aulas/the-healing-sound-of-the-earth/)
+[The Healing Sound Of The Earth](https://celsozymon.com.br/cursos-aulas/the-healing-sound-of-the-earth/)
 
+## Made with: The HTML Presentation Framework
 
 <p align="center">
   <a href="https://revealjs.com">
