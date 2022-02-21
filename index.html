@@ -47,7 +47,11 @@
 				line-height: 1;
 				color: #fff;
 				background-color: rgba(0, 0, 0, 0.4);
-				padding: 5px;"><a style="color: #fff"
+				padding: 5px;">
+				<a style="height: 32px;"
+				href="#" onclick="googleTranslateElementInit();">
+				<img src="./images/flag-en.png" style="margin: 0px !important; max-height: 32px !important; max-width: 32px !important; display: block;" /></a>
+				<a style="color: #fff"
 					href="https://celsozymon.com.br/"
 					target="_blank">@celsozymon</a></div>
 
@@ -67,6 +71,7 @@
 					data-background-opacity="0.4" style="top:
 					157px; display: block; color: #F0F0F0" class="present">
 					<h3>S.O.S. TERRA</h3>
+					<audio data-autoplay src="./audio/healing_earth_sound.mp3"></audio>
 					<div class="fragment fade-in">
 						<h4 class="destaque">O Som Curativo da Terra</h4>
 						<h4 class="destaque">The healing sound of the earth</h4>
@@ -120,7 +125,6 @@
 						</div>
 					</div>
 					<!-- share / fim -->
-					<audio data-autoplay src="./audio/healing_earth_sound.mp3"></audio>
 
 				</section>
 
@@ -256,5 +260,12 @@
 				// Learn about plugins: https://revealjs.com/plugins/
 			});
 		</script>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				console.log('googleTranslateElementInit');
+				new google.translate.TranslateElement({pageLanguage: 'en'}, 'reveal');
+			}
+		</script>		
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	</body>
 </html>
