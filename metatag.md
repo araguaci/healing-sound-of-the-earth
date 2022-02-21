@@ -30,3 +30,15 @@ content="https://healing-sound-of-the-earth.vercel.app/" />
 		</script>		
 		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+				<a style="height: 32px;"
+				href="#" onclick="googleTranslateElementInit();">
+				<img src="./images/flag-en.png" style="margin: 0px !important; max-height: 32px !important; max-width: 32px !important; display: block;" /></a>
+
+		<div id="google_translate_element"></div>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				console.log('googleTranslateElementInit');
+				new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+			}
+		</script>		
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
